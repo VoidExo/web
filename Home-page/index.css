@@ -1,0 +1,522 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
+.wrapper {
+    margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid cyan; */
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    /* margin: auto; */
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+.title .title-item{
+    font-family: "BebasNeue", sans-serif;
+    /* position: absolute; */
+    font-size: 40px;
+    padding-top: 1rem;
+}
+/* color title */
+.title-item{
+    color: white;
+}
+.title-item span{
+    color: #DC5F00;
+}
+.lang {
+    /* margin-left: 80rem; */
+    display: flex;
+}
+.lang .nav-item {
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.sign-in .btn {
+    height: 41px;
+    width: 100px;
+    border: none;
+    font-size: 17px;
+    text-transform: capitalize;
+    font-weight: 500;
+    color: white;
+    background-color: #DC5F00;
+}
+.sign-in .btn a{
+    text-decoration: none;
+    color: white;
+}
+.container-fluid .img .gambar{
+    height: 750px;
+    width: 100%;
+}
+.icon{
+    margin-left: 10px;
+}
+.navbar-nav .navbar-item .icon{
+    font-size: 20px;
+}
+.navbar-nav .nav-item .nav-link{
+    margin-left: 0.5rem;
+}
+.navbar-nav {
+    width: 155px;
+    font-family: "MontserratN";
+    /* font-size: 15px; */
+    margin-right: 1rem;
+}
+.navbar-nav .nav-item {
+    display: flex;
+    align-items: center;
+}
+.navbar-nav .nav-item .dropdown-menu{
+    border: 1px solid white;
+    background-color: transparent;
+}
+.navbar-nav .nav-item .dropdown-menu .dropdown-item{
+    color: white;
+}
+/* 
+.container-fluid .Title h1{
+    font-weight: 600;
+    font-family: "MontserratN";
+    color: rgb(255, 255, 255);
+    margin: auto;
+}
+.container-fluid .Title{
+    border: 1px solid cyan;
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+    
+}
+
+.img{
+    z-index: 0;
+    width: 100%;
+} */
+
+.container-fluid {
+    position: relative;
+    width: 100%;
+    margin: 0 auto; /* Center the container */
+    z-index: -1;
+}
+
+.img {
+    position: relative;
+}
+
+.gambar {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.Title {
+    font-family: "MontserratN", sans-serif;
+    z-index: 1;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px; 
+    text-align: center;
+    padding: 10px;
+    width: 80%; 
+}
+.Title h1{
+    font-weight: 700;
+}
+.figure-caption{
+    font-family: "MontserratN",sans-serif;
+    z-index: 2;
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px; 
+    text-align: center;
+    padding: 10px;
+    width: 80%; 
+}
+.figure-caption h4{
+    color: white;
+    font-weight: 300;
+    margin-bottom: 1em;
+}
+.figure-caption h5{
+    color: white;
+    font-weight: 300;
+}
+.mb-3{
+    display: flex;
+    font-family: "MontserratN",sans-serif;
+    z-index: 2;
+    position: absolute;
+    /* margin-top: -5%; */
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px; 
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px; 
+
+
+
+    /* border: 1px solid rgba(4, 255, 234, 0.473); */
+}
+.mb-3 .form-control {
+    background-color: #000000;
+    opacity: 70%;
+    border-radius: 0%;
+    border: 1px solid #787878;
+    padding: 0.8rem;
+    width: 600px;
+    margin-right: 1rem;
+}
+.mb-3 .form-control::placeholder{
+    color: #787878;
+}
+.mb-3 .form-control:focus{
+    background-color: #000000;
+    color: white;
+}
+.mb-3 .form-control:not(:focus){
+    background-color: hsl(0, 0%, 0%);
+    color: white;
+}
+.mb-3{
+    /* border: 1px solid white; */
+    justify-content: space-between;
+}
+.mb-3 .button .btn {
+    border: none;
+    width: 179px;
+    height: 53px;
+    background-color: #DC5F00;
+    color: white;
+    text-transform: capitalize;
+}
+.img-fluid {
+    position: relative;
+    border-top: 7px solid #515151;
+    display: flex;
+    height: 632px;
+    background-image: linear-gradient(to right, #000 50%, #515151);
+}
+.img-fluid .title {
+    color: white;
+    margin: auto;
+    font-family: "MontserratN", sans-serif;
+}
+.title .judul {
+    font-weight: 700;
+}
+.title .box .caption {
+    font-weight: 400;
+}
+.title .box {
+    width: 25.5rem;
+}
+.img-fluid .foto {
+    margin-right: 15%;
+}
+.pembungkus .img-fluid {
+    position: relative;
+    border-top: 7px solid #515151;
+    display: flex;
+    height: 632px;
+    background-image: linear-gradient(to left, #000 50%, #515151);
+}
+.pembungkus .title{
+    /* width: 456px; */
+    margin-right: 15%;
+}
+.pembungkus .img-fluid {
+    height: 500px;
+}
+.pembungkus .gambar {
+    margin-top: 4.5%;
+    margin-left: 15%;
+}
+.footer {
+
+    justify-content: space-around;
+    display: flex;
+    border-top: 7px solid #515151;
+    height: 550px;
+    background-color: #0F0F0F;
+}
+.footer .footer-wrapper{
+    margin-left: 5rem;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin-top: 5%;
+}
+.footer-wrapper .judul {
+    font-family: "BebasNeue", sans-serif;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-size: 128px;
+}
+.footer-wrapper .judul span {
+    color: #DC5F00;
+}
+.footer .desk {
+    font-family: "Poppins", sans-serif;
+    color: white;
+    width: 36rem;
+}
+.footer .desk p{
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+.container-link{
+    margin-top: 5%;
+    width: 50rem;
+    font-size: 15px;
+    color: white;
+    justify-content: space-around;
+}
+.footer .container-link h3{
+    font-size: 20px;
+}
+.footer .container-link {
+    display: flex;
+    margin-right: 5rem;
+}
+.footer .container-link .footer-link {
+    margin-top: 1.5rem;
+    margin-left: -1.8rem;
+}
+.footer .container-link .footer-link li a{
+    text-decoration: none;
+    color: white;
+}
+.footer .container-link .footer-link li {
+    margin-bottom: 0.5rem;
+}
+.footer .container-link .Series .footer-link {
+    list-style: none;
+}
+.footer .container-link .Categories .footer-link {
+    list-style: none;
+}
+.footer .container-link .DEMOV .footer-link {
+    list-style: none;
+}
+
+.footer-bottom {
+    padding-left: 5rem;
+    justify-content: space-around;
+    display: flex;
+    border-top: 1px solid #ffffff;
+    height: 3rem;
+    font-family: "MontserratN", sans-serif;
+    color: white;
+    background-color: #0F0F0F;
+}
+.footer-bottom .judul{
+    margin-top: 0.55rem;
+}
+.footer-bottom .social-link {
+    margin-top: 0.55rem;
+    font-family: "MontserratN", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    display: flex;
+    text-transform: capitalize;
+}
+.footer-bottom .social-link .social-item {
+    margin-right: 3rem;
+}
+.footer-bottom .social-link .social-item a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* responsive */
+
+
+@media screen and (max-width: 1366px) {
+    
+    .Title {
+        top: 35%;
+    }
+    .figure-caption{
+        top: 45%;
+    }
+    .mb-3{
+        top: 60%;
+    }
+    .img-fluid .foto {
+        margin-right: 14%;
+    }
+    .img-fluid .title .judul, .img-fluid .title .box {
+        transform: translateX(16%);
+    }
+    .pembungkus .title{
+        /* width: 456px; */
+        margin-left: -10%;
+    }
+    .footer .footer-wrapper{
+        margin-left: 5rem;
+        margin-top: 5%;
+    }
+    .footer-wrapper .judul {
+        font-size: 110px;
+    }
+    .footer .desk {
+        width: 30rem;
+    }
+    .container-link{
+        margin-top: 6%;
+        /* transform: translateX(5%); */
+        font-size: 10px;
+        }
+
+}
+
+
+
+
+
+/* end responsive */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+    font-family: "BebasNeue";
+    src: url(../Font/BebasNeue-Regular.ttf);
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url(../Font/Montserrat-Italic-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: "MontserratN";
+    src: url(../Font/Montserrat-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: "Questrial";
+    src: url(../Font/Questrial-Regular.ttf);
+}
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }

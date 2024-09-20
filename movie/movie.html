@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Assets/css/bootstrap-reboot.min.css" />
+    <link rel="stylesheet" href="movie.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Zain:wght@200;300;400;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="shortcut icon" href="../Image/Group 8.png" type="image/x-icon">
+    <title>DEMOV</title>
+</head>
+<body>
+
+        <nav class="navbar navbar-expand-lg col-md-12" style="position: absolute;">
+            <div class="container-fluid">
+                <span><a class="navbar-brand" href="#">de<span>mov</span></a></span>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" role="button" data-bs-toggle="dropdown" aria-expanded="false">movies</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="">Most watched</a></li>
+                                <li><a class="dropdown-item" href="">Cinemaxxi</a></li>
+                                <li><a class="dropdown-item" href="">MCU</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">TV series</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="">Most watched</a></li>
+                                <li><a class="dropdown-item" href="">MCU</a></li>
+                                <li><a class="dropdown-item" href="">Amazon Prime</a></li>
+                                <li><a class="dropdown-item" href="">Apple TV+ Series</a></li>
+                                <li><a class="dropdown-item" href="">Disney+ Series</a></li>
+                                <li><a class="dropdown-item" href="">HBO Series</a></li>
+                                <li><a class="dropdown-item" href="">Netflix Series</a></li>
+                            </ul>
+                        </li>
+                        <div class="capital">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                categories
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">action</a></li>
+                                    <li><a class="dropdown-item" href="#">adventure</a></li>
+                                    <li><a class="dropdown-item" href="#">animation</a></li>
+                                    <li><a class="dropdown-item" href="#">comedy</a></li>
+                                    <li><a class="dropdown-item" href="#">crime</a></li>
+                                    <li><a class="dropdown-item" href="#">drama</a></li>
+                                    <li><a class="dropdown-item" href="#">horror</a></li>
+                                    <li><a class="dropdown-item" href="#">mystery</a></li>
+                                    <li><a class="dropdown-item" href="#">romance</a></li>
+                                    <li><a class="dropdown-item" href="#">sci-fi</a></li>
+                                    <li><a class="dropdown-item" href="#">thriller</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">view more</a></li>
+                                </ul>
+                            </li>
+
+                        </div>
+                    </ul>
+
+                    <!-- search bar -->
+                    <div class="container-search">
+                        <form class="search-bar">
+                            <input type="text" name="q" id="" placeholder="Search a movie, Series...">
+                            <button type="submit">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                        </form>
+                    </div>    
+                    <!-- end bar -->
+
+
+                    <div class="container-not">
+                        <div class="not-control">
+                            <div class="not-item">
+                                <a class="link" href=""><i class="fa-solid fa-bell"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="myprofile" class="icon-profile">
+                        <div class="icon-control">
+                            <div class="image">
+                                <a class="icon-link" href="">
+                                    <img class="item" src="../Image/profile.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+        </nav>
+
+        <!-- main -->
+
+        <div class="container-video">
+            <div class="container-wrapper">
+                <div class="item col-md-9">
+                    <video controls>
+                        <source src="../video/John.Wick.Chapter.2.2017.1080p.UHD.BluRay.x265.HDR.DV.DD+5.1-Pahe.in.mkv .mp4">
+                    </video>
+                    <div class="title">
+                        <h1>john wick 2</h1>
+                    </div>
+                    <div class="tools">
+                        <div class="tools-item">
+                            <a href=""><i class="fa-solid fa-download" style="color: #ffffff;"></i></a>
+                            <p>download</p>
+                        </div>
+                        <div class="tools-item">
+                            <a href=""><i class="fa-solid fa-share" style="color: #ffffff;"></i></i></a>
+                            <p>share</p>
+                        </div>
+                        <div class="tools-item">
+                            <a href=""><i class="fa-solid fa-thumbs-up" style="color: #ffffff;"></i></a>
+                            <p>like</p>
+                        </div>
+                        <div class="tools-item">
+                            <a href=""><i class="fa-solid fa-thumbs-down" style="color: #ffffff;"></i></a>
+                            <p>dislike</p>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="deskripsi">
+                        <div class="judul">
+                            <h6>story line :</h6>
+                        </div>
+                        <p>John Wick is a 2014 American action thriller film directed by Chad Stahelski and written by Derek Kolstad. Keanu Reeves stars as John Wick, a legendary hitman who comes out of retirement to seek revenge against the men who killed his dog, a final gift from his recently deceased wife</p>
+                    </div>
+
+                    <div class="caption">
+                        <div class="cap-control">
+                            <div class="cap-item">
+                                <h5>duration</h5>
+                                <p>02:02:22</p>
+                            </div>
+                            <div class="cap-item">
+                                <h5>release date</h5>
+                                <p>8 Feb 2017</p>
+                            </div>
+                            <div class="cap-item">
+                                <h5>genre</h5>
+                                <p>Action, 
+                                    Crime,
+                                    Thriller</p>
+                            </div>
+                            <div class="cap-item">
+                                <h5>rating</h5>
+                                <p>9+</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="rec col-md-3">
+                    <div class="rec-control">
+                        <div class="title">
+                            <h4>Recommendation</h4>
+                        </div>
+                        <div class="rec-item">
+                            <img src="../Image/download 1.png" alt="">
+                            <div class="caption">
+                                <div class="play">
+                                    <i class="fa-regular fa-circle-play" style="color: #ffffff;"></i>
+                                </div>
+                                <div class="caption-back">
+                                    <h2>dead pool 2</h2>
+                                    <h5>6 years ago</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rec-item">
+                            <img src="../Image/25 ideias de hobbies para adotar na sua vida 1.png" alt="">
+                            <div class="caption">
+                                <div class="play">
+                                    <i class="fa-regular fa-circle-play" style="color: #ffffff;"></i>
+                                </div>
+                                <div class="caption-back">
+                                    <h2>Harry Potter</h2>
+                                    <h5>23 years ago</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rec-item">
+                            <img src="../Image/Iron Man 3 1.png" alt="">
+                            <div class="caption">
+                                <div class="play">
+                                    <i class="fa-regular fa-circle-play" style="color: #ffffff;"></i>
+                                </div>
+                                <div class="caption-back">
+                                    <h2>iron man 3</h2>
+                                    <h5>11 years ago</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="clips">
+                <div class="title">
+                    <h1> selected clips</h1>
+                </div>
+                <div class="clips-section">
+                    <div class="clips-item">
+                        <img src="../Image/download (1) 1.png" alt="">
+                    </div>
+                    <div class="clips-item">
+                        <img src="../Image/john wick 1.png" alt="">
+                    </div>
+                    <div class="clips-item">
+                        <img src="../Image/Love_ 1.png" alt="">
+                    </div>
+                    <div class="clips-item">
+                        <img src="../Image/The Rare Example of a New, Original, Movie Franchise 1.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="detail">
+                <div class="image">
+                    <img src="../Image/John Wick_ Chapter 2 (2017) 3.png" alt="">
+                </div>
+                <div class="details">
+                    <h1>John Wick : Chapter 2 (2017)</h1>
+                    <h4>Never stab the devil in the back</h4>
+                    <div class="rating">
+                        <div class="rating-num">
+                            <h1>9.7</h1>
+                        </div>
+                        <div class="rating-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <div class="vote">
+                                <i class="fa-solid fa-user"></i>
+                                <p>175 votes</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="genre">
+                        <h6>Action | Crime | Thriller</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- end main -->
+
+
+            <!-- footer -->
+
+            <footer class="footer">
+                <div class="footer-wrapper ">
+                    <h1 class="judul">de<span>mov</span></h1>
+                    <div class="desk">
+                        <p>
+                            DEMOV merupakan situs penyedia layanan streaming film dan serial tv gratis. Sama seperti penyedia film dan serial tv lainnya seperti Netflix, Disney+, 
+                            HBO, Apple TV+, Amazon Prime Video, dan lainnya. DEMOV berusaha untuk menyediakan layanan streaming gratis untuk selamanya kepada para rakyat Indonesia yang belum mampu berlangganan layanan premium streaming seperti yang disebut diatas.
+                            Perlu diperhatikan DEMOV tidak menyediakan 
+                            film maupun serial tv dari negara Indonesia.
+                        </p>
+                    </div>
+                </div>
+        
+                <div class="container-link">
+                    <div class="Series">
+                        <h3>Original Series</h3>
+                        <ul class="footer-link">
+                            <li><a class="link" href="">Apple TV+</a></li>
+                            <li><a href="">Amazon</a></li>
+                            <li><a href="">Disney+</a></li>
+                            <li><a href="">HBO</a></li>
+                            <li><a href="">Netflix</a></li>
+                        </ul>
+                    </div>
+                    <div class="Categories">
+                        <h3>Categories</h3>
+                        <ul class="footer-link">
+                            <li><a href="">Action</a></li>
+                            <li><a href="">Adventure</a></li>
+                            <li><a href="">Animation</a></li>
+                            <li><a href="">Comedy</a></li>
+                            <li><a href="">Drama</a></li>
+                            <li><a href="">Horror</a></li>
+                            <li><a href="">Sci-fi</a></li>
+                        </ul>
+                    </div>
+                    <div class="DEMOV">
+                        <h3>DEMOV</h3>
+                        <ul class="footer-link">
+                            <li><a href="">DCEU Movie</a></li>
+                            <li><a href="">MCU Movie</a></li>
+                            <li><a href="">Disney+ Movie And Series</a></li>
+                            <li><a href="">Netflix Movie And Series</a></li>
+                            <li><a href="">Marvel Studio Series</a></li>
+                            <li><a href="">Coming Soon</a></li>
+                        </ul>
+                    </div>
+        
+                </div>
+            </footer>
+            <footer class="footer-bottom" style="padding: 0 ; margin: 0;">
+                <div class="judul">
+                    <p class="title">
+                        Copy right &copy; 2024 by DEMOV. All Rights Reserved.
+                    </p>
+                </div>
+                <div class="social-link">
+                    <div class="social-item">
+                        <a href="#">help</a>
+                    </div>
+                    <div class="social-item">
+                        <a href="#">privacy</a>
+                    </div>
+                    <div class="social-item">
+                        <a href="#">telegram</a>
+                    </div>
+                    <div class="social-item">
+                        <a href="#">instagram</a>
+                    </div>
+                    <div class="social-item">
+                        <a href="#">discord</a>
+                    </div>
+                </div>
+            </footer>
+        
+
+
+        <!-- <script src="landing.js"></script> -->
+        <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
