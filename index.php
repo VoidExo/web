@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -29,7 +30,7 @@
                     </li>
                 </ul>
                 <div class="sign-in">
-                    <button class="btn btn-outline-secondary"><a href="Login-page/log-in.html">sign in</a></button>
+                    <button class="btn btn-outline-secondary"><a href="Login-page/log-in.php">sign in</a></button>
                 </div>
             </div>
     </nav>

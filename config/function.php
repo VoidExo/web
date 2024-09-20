@@ -134,4 +134,23 @@ function updateBarangGambar ($data, $koneksi, $id){
 
     return true;
 }
+
+function tampilNewReleaseGambar($koneksi){
+    $sql = "SELECT id_film, judul, durasi, sinopsis, cover, thumbnail, file_film FROM film ORDER BY id_film DESC limit 3 ";
+    $stmt = mysqli_query($koneksi, $sql);
+
+    if(mysqli_num_rows($stmt) > 0 ) return mysqli_fetch_all($stmt, MYSQLI_ASSOC);
+    else return false; 
+}
+
+function tampilNewRelease($koneksi){
+    $sql = "SELECT sepatu.id as idsepatu, nama, harga, gambar.file_gambar, gambar.sepatu_id FROM sepatu 
+                    LEFT JOIN gambar ON sepatu.id = gambar.sepatu_id 
+                    GROUP BY gambar.sepatu_id
+                    ORDER BY sepatu.id DESC LIMIT 3";
+    $stmt = mysqli_query($koneksi, $sql);
+
+    if(mysqli_num_rows($stmt) > 0 ) return mysqli_fetch_all($stmt, MYSQLI_ASSOC);
+    else return false; 
+}
 ?>

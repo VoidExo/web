@@ -34,7 +34,7 @@
             </div>
             <div class="button-toggle">
                 <button class="btn btn-primary">
-                    <a href="../Landing.html/landing.html" style="text-decoration: none; color: white;">
+                    <a href="../Landing.html/landing.php" style="text-decoration: none; color: white;">
                         enter
                     </a>
                 </button>

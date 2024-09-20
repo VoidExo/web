@@ -1,3 +1,7 @@
+<?php 
+    require_once "../config/config.php";
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -255,24 +259,20 @@
 
             
             <picture class="slider-container">
+            <?php
+            $tampil = tampilNewReleaseGambar($koneksi);
+
+            foreach($tampil as $rec){
+            ?>
                 <div class="slider-item">
-                    <img src="../Image/Van Helsing, Movies from the 90s, Classic Poster 1.png" alt="">
+
+                    <img src="../Upload/Cover/<?= $rec['cover'] ?>" alt="">
                 </div>
-                <div class="slider-item">
-                    <img src="../Image/Jumanji Next Level 1.png" alt="">
-                </div>
-                <div class="slider-item">
-                    <img src="../Image/_After Earth_ 1.png" alt="">
-                </div>
-                <div class="slider-item">
-                    <img src="../Image/Trends International DC Comics Movie The Batman - One Sheet Wall Poster, 22_375_ x 34_, Unframed Version 1.png" alt="">
-                </div>
-                <div class="slider-item">
-                    <img src="../Image/MIGHTYPRINT Harry Potter and the Sorcerer's Stone 20th Anniversary – Durable 17” x 24 Wall Art – NOT Made of Paper – Officially Licensed Collectible 1.png" alt="">
-                </div>
-                <div class="slider-item">
-                    <img src="../Image/John Wick 4 Movie (HINDI+ENGLISH) 1.png" alt="">
-                </div>
+                <?php  
+                
+
+                }
+                ?>
             </picture>
         </div>
 
@@ -311,19 +311,22 @@
 
             
             <picture class="slider-container">
+            <?php
+            $tampil = tampilNewReleaseGambar($koneksi);
+
+            foreach($tampil as $rec){
+            ?>
                 <div class="slider-item">
-                    <img src="../Image/Van Helsing, Movies from the 90s, Classic Poster 1.png" alt="">
+
+                    <img src="../Upload/Cover/<?= $rec['cover'] ?>" alt="">
                 </div>
-                <div class="slider-item">
-                    <img src="../Image/Harry Potter And The Philosopher's Stone 1.png" alt="">
-                </div>
-                <div class="slider-item">
-                    <img src="../Image/download (3) 2.png" alt="">
-                </div>
-                <div class="slider-item">
-                    <img src="../Image/John Wick 4 Movie (HINDI+ENGLISH) 1.png" alt="">
-                </div>
+                <?php  
+                
+
+                }
+                ?>
             </picture>
+
         </div>
         <div class="continue">
             <div class="slider">
@@ -343,24 +346,20 @@
 
             
             <picture class="slider-container">
+            <?php
+            $tampil = tampilNewReleaseGambar($koneksi);
+
+            foreach($tampil as $rec){
+            ?>
                 <div class="slider-item">
-                    <img src="../Image/[VER-HD] Rápidos Y Furiosos 10 descargar pelicula Completa EN vivo 1.png" alt="">
+
+                    <img src="../Upload/Cover/<?= $rec['cover'] ?>" alt="">
                 </div>
-                <div class="slider-item">
-                    <a href="../movie/movie.html"><img src="../Image/John Wick_ Chapter 2 (2017) 1.png" alt=""></a>
-                </div>
-                <div class="slider-item">
-                    <img src="../Image/e4a63b18-19d2-4262-813a-f32fca8acdf0 1.png" alt="">
-                </div>
-                <div class="slider-item">
-                    <img src="../Image/download (2) 1.png" alt="">
-                </div>
-                <div class="slider-item">
-                    <img src="../Image/Ong-bak 2_ The beginning (2008) - Tony Jaa, Panna Rittikrai 1.png" alt="">
-                </div>
-                <div class="slider-item">
-                    <img src="../Image/John Wick 4 Movie (HINDI+ENGLISH) 1.png" alt="">
-                </div>
+                <?php  
+                
+
+                }
+                ?>
             </picture>
         </div>
         <div class="continue-last">
@@ -381,27 +380,23 @@
 
             
             <picture class="slider-container">
+            <?php
+            $tampil = tampilNewReleaseGambar($koneksi);
+
+            foreach($tampil as $rec){
+            ?>
                 <div class="slider-item">
-                    <img src="../Image/download (5) 1.png" alt="">
+
+                    <img src="../Upload/Cover/<?= $rec['cover'] ?>" alt="">
                 </div>
-                <div class="slider-item">
-                    <img src="../Image/download (8) 1.png" alt="">
-                </div>
-                <div class="slider-item">
-                    <img src="../Image/download (3) 1.png" alt="">
-                </div>
-                <div class="slider-item">
-                    <img src="../Image/download (4) 1.png" alt="">
-                </div>
-                <div class="slider-item">
-                    <img src="../Image/Shortcut 2020 Film 1.png" alt="">
-                </div>
-                <div class="slider-item">
-                    <img src="../Image/It (2017), de Andy Muschietti 1.png" alt="">
-                </div>
+                <?php  
+                
+
+                }
+                ?>
             </picture>
         </div>
-
+ 
 
             <!-- footer -->
 
